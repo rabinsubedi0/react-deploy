@@ -1,0 +1,165 @@
+
+li{
+  list-style-type: none;
+}
+nav{
+  background-color: rgb(66, 66, 66);
+}
+
+div{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.standard-adornment-password{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
+}
+ i {
+  margin-left: 444px;
+  margin-bottom: -70px;
+  cursor: pointer;
+}
+.App{
+  background-color: black;
+  min-height: 100vh;
+  font-family: 'JioType';
+}
+.modal {
+  margin-top: 100px;
+ 
+}
+.mymodel {
+  width: 550px;
+}
+.modal-title{
+  font-size: 18px;
+  font-weight: 10;
+
+}
+.modal-body,.modal-content,.modal-header{
+background-color: #1d1d1d;
+border-radius: 10px;
+}
+.inputline{
+  width: 520px;
+  border-bottom: 1px solid white;
+  font-size: 10px;
+  margin-top: -330px;
+  font-weight: 100;
+}
+.ohuc{
+color: red;
+background-color: red;
+}
+.showPassword{
+  color: white;
+}
+Input{
+  color: white;
+}
+.crossbtn{
+  color:white;
+  font-size: 35px;
+}
+.crossbtn::before{
+  color: white;
+}
+.submitbtn{
+  width: 120px;
+  height:30px;
+  border-radius: 7px;
+  margin-top: 0px;
+  color: white;
+  background-color: #4096EF
+}
+.signin{
+  margin-top: -6px;
+}
+.or{
+  color: rgb(71, 71, 71);
+  font-size: 16px;
+}
+.mycheck{
+  border: 2px solid red;
+}
+
+
+.forgotpass{
+  font-size: 15px;
+  font-weight: 100;
+  color:#77BAFF
+}
+.signup{
+  font-size: 14px;
+  font-weight: 10;
+  color:#77BAFF
+}
+.labelss{
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.inuptss{
+  font-size: 19px;
+}
+
+
+
+
+input[type=checkbox]  {
+  display: block;
+  margin: 0.1em;
+  cursor: pointer;
+  padding: 0.1em;
+}
+
+.mylabel{
+  color: gray;
+  font-weight: 10;
+  padding:-10px;
+
+}
+
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid grey;
+  border-radius: 0.1em;
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+
+
